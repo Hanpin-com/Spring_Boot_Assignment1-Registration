@@ -1,77 +1,68 @@
-
-```md
 # Course Registration Spring Boot Application
 
 ## Description
-This is a simple Spring Boot web application built with Spring MVC and Thymeleaf.  
-It allows students to fill out a course registration form and displays the submitted information on a confirmation page.
+A simple Spring Boot web application using Spring MVC and Thymeleaf.  
+Students can fill out a course registration form and view their submitted information on a confirmation page.
 
-This project is created for Assignment 1: Spring Boot Web Application with Forms.
+This project is created for **Assignment 1: Spring Boot Web Application with Forms**.
+
+---
+
+## Features
+- Registration form (name, email, course, level of study)
+- Confirmation page displaying submitted data
+- Thymeleaf templates
+- Basic CSS styling
+- No database required
 
 ---
 
 ## Project Structure
 ```
-
-src
+registration
+├── ScreenShot
+│ ├── Register Page.png
+│ ├── Register Page (input data).png
+│ └── Confirmation Page.png
+└── src
 └── main
 ├── java
-│   └── com.example.registration
-│       ├── RegistrationApplication.java
-│       ├── controller
-│       │   └── RegistrationController.java
-│       └── model
-│           └── Student.java
+│ └── com.example.registration
+│ ├── RegistrationApplication.java
+│ ├── controller
+│ │ └── RegistrationController.java
+│ └── model
+│   └── Student.java
 └── resources
-├── static
-│   └── style.css
-└── templates
-├── register.html
-└── confirmation.html
-
+├── templates
+│ ├── register.html
+│ └── confirmation.html
+└── static
+  └── style.css
 ```
 
 ---
 
-## How to Run the Project
+## How to Run
 
-1. Clone this repository:
-```
+1. Clone the repository:
+```bash
+git clone https://github.com/Hanpin-com/Spring_Boot_Assignment1-Registration.git
+Open the project in IntelliJ IDEA (or Eclipse).
 
-git clone <your-github-repo-url>
-
-```
-
-2. Open the project in IntelliJ IDEA (or Eclipse).
-
-3. Run the main class:
-```
+Run:
 
 RegistrationApplication.java
+Open a browser and go to:
 
+http://localhost:8080/register
 ```
+Screenshots
+Register Page
 
-4. Open a web browser and go to:
-```
+1. ScreenShot/Register Page.png
+2. ScreenShot/Register Page (input data).png
 
-[http://localhost:8080/register](http://localhost:8080/register)
+Confirmation Page
 
-```
-
----
-
-## Screenshots
-
-Register:
-1. https://github.com/Hanpin-com/Spring_Boot_Assignment1-Registration/blob/main/ScreenShot/Register%20Page.png
-2. https://github.com/Hanpin-com/Spring_Boot_Assignment1-Registration/blob/main/ScreenShot/Register%20Page%20(input%20data).png
-Confirmation:
-https://github.com/Hanpin-com/Spring_Boot_Assignment1-Registration/blob/main/ScreenShot/Confirmation%20Page.png
-
-```
-
----
-
-## Author
-Han-Pin Hung
-```
+1. ScreenShot/Confirmation Page.png
