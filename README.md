@@ -1,14 +1,13 @@
 # Course Registration Spring Boot Application
 
 ## Description
-A simple Spring Boot web application using Spring MVC and Thymeleaf.  
-Students can fill out a course registration form and view their submitted information on a confirmation page.
-
-This project is created for **Assignment 1: Spring Boot Web Application with Forms**.
+Develop a basic Spring Boot web application using Spring MVC and Thymeleaf to allow users to
+submit a registration form for a course. The data should be displayed on a confirmation page
+after form submission.
 
 ---
 
-## Features
+## Feature
 - Registration form (name, email, course, level of study)
 - Confirmation page displaying submitted data
 - Thymeleaf templates
